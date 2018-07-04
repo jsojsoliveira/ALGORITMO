@@ -1,13 +1,17 @@
 <html>
     <script>
-    let primeiro numero = 5;
-    let segundo numero = 6;
-    if (nota >= 7) {
-        alert('aprovado');
-    } else if  (nota < 3) {
-        alert('Reprovado');
+    let valor1 = parseInt(prompt('Valor 1'));
+    let valor2 = parseInt(prompt('Valor 2'));
+    
+    let maior = 0;
+    
+    if (valor1 > valor2) {
+        maior = valor1;
+    } else if  (valor1 < valor2) {
+        maior = valor2;
     } else {
-        alert('Recuperacao');
+        maior = 'iguais'
     }
+        alert('Maior e ' + maior);
     </script>
 </html>
