@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<script>
+let letras = ['a','s','g','i','q','u','t','v','z','y'];
+let consoantes = [];
+ for (let i=0; i<letras.length; i++) {
+     let item = letras[i];
+     if(item!='a' &&
+        item!='e' &&
+        item!='i' &&
+        item!='o' &&
+        item!='u') {
+        consoantes.push(item);
+    }
+}
+//alert(consoantes.length);
+//alert(consoantes);
+alert("Quantidade:" + consoantes.length + "\n\
+       consoantes:" + consoantes);
+</script>
+</html>
